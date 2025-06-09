@@ -1,0 +1,227 @@
+/* Big tablet to 1200px */
+@media only screen and (max-width: 1200px){
+    .navbar{
+        margin-right: 5vh;
+    }
+    .align{
+    margin-right: 50vh;
+    }
+    .display{
+    margin: 0 0 0 4vw;
+    }
+    .food-showcase-gap{
+        gap: 2vw;
+    }
+    .food-content{
+        font-size: 2.3vh;
+    }
+    .huge-logo{
+        font-size: 3vh;
+    }
+    .food-sep{
+        height: 4vh;
+    }
+    .city-photos{
+        margin: 0 0 0 2vw;
+    }
+    .our-city-logo{
+        font-size: 4vh;
+    }
+    .eaters{
+        font-size: 2vh;
+        margin: 0.7vh 0 0 0;
+    }
+    .city{
+        font-size: 2.8vh;
+    }
+    .customer-rev-display{
+        margin: 0 0 0 1.7vh;
+    }
+    .sub-plan-display{
+        margin: 0 0 0 9vh;
+    }
+    .input-text-size{
+        font-size: 2.5vh;
+    }
+    .footer-links{
+        font-size: 2.3vh;
+    }
+
+}
+
+/* Small tablet to big tablet: from 890px to 1023px */
+@media only screen and (max-width: 1023px){
+    .introduction{
+        width: 95%;
+        margin-left: 2.5vw;
+    }
+    .food-showcase-display{
+        margin: 0 0 0 4.7vw;
+    }
+    .city-photos{
+        margin: 0 0 0 1vw;
+    }
+    .why-us-gap{
+        padding: 0 0 4vh 0;
+    }
+    .our-city{
+        width: 75%;
+    }
+    .city-photos{
+        margin: 0 0 0 2.2vw;
+    }
+    .customer-rev-display{
+        margin: 0 0 0 0.5vh;
+    }
+    
+}
+
+/* Small phones to small tablets: from 621px to 890px */
+@media only screen and (max-width: 890px){
+    .nav{
+        display: none;
+    }
+    .display{
+        display: grid;
+    }
+    .city-photos{
+        display: grid;
+    }
+    .city-photos{
+        margin: 0 0 0 22vw;
+    }
+    .span_1_of_4{
+        width: 80%;
+    }
+    .london-media{
+        margin: 0 0 0 2vh;
+    }
+    .food-showcase-display{
+        margin: 3vh 0 0 4.5vw;
+    }
+    .food-text-align{
+        font-size: 2vh;
+    }
+    #food-sep{
+        display: none;
+    }
+    .food-text-display{
+        display: grid;
+    }
+    .food-display-flex{
+        display: flex;
+        gap: 0.4vw;
+        margin-left: 2.5vw;
+    }
+    .card-text{
+        margin-top: -0.1vh;
+    }
+    .customer-rev-display{
+        margin: 0 0 0 1.2vh;
+        display: grid;
+    }
+    .sub-plan-display{
+        display: grid;
+        /* text-align: center; */
+        margin-left: 1vh;
+    }
+    .span_1_of_3{
+        width: 120%;
+    }
+    .sub-plan-head{
+        font-size: 6vh;
+    }
+    #starter-margin{
+        margin: 0 0 0.9vh 1.3vh;
+    }
+    .sub-plan-color{
+        width: 60%;
+    }
+    .input-size, .textarea-size{
+        width: 23vw;
+    }
+    .input-align{
+        margin: 1vh 0 0 30vw;
+    }
+    .footer-links{
+        font-size: 2vh;
+    }
+    .copyright{
+        font-size: 1vh;
+    }
+    .footer-socials-align{
+        margin: -2.8vh 0 0 87vw;
+    }
+    .align{
+        margin-right: 40vh;
+    }
+    .contact-form{
+        padding-bottom: 60vh;
+    }
+    .input-align{
+        margin: 1vh 0 0 40vw;
+    }
+    .footer-links-display{
+        display: grid;
+        gap: 1vh;
+    }
+    .footer-links{
+        font-size: 1.8vh;
+    }
+}
+
+/* From 583px to 621px */
+@media only screen and (max-width: 621px){
+    .size-upper{
+        font-size: 3.5vh;
+    }
+    .size-bottom{
+        font-size: 9.5vh;
+    }
+    .align{
+        margin-right: 25vh;
+    }
+    .sub-plan-display{
+        margin-left: 2vw;
+    }
+    .span_1_of_3{
+        width: 120%;
+    }
+    .food-showcase-display{
+        display: grid;
+    }
+    .food-showcase-img{
+        width: 60%;
+    }
+    .food-content{
+        font-size: 2.8vh;
+        text-align: left;
+    }
+    .huge-logo{
+        font-size: 4vh;
+    }
+    .card-text{
+        margin-top: 1vh;
+    }
+    .food-display-flex{
+        margin-left: -2vh;
+    }
+}
+
+/* Small phones: from 0 to 583px */
+@media only screen and (max-width: 583px){
+    #how-works-display{
+        display: grid;
+    }
+    .how-works-text{
+        font-size: 2vh;
+    }
+    blockquote{
+        font-size: 1.5vh;
+    }
+    .number{
+        margin: 1vh 30vh 1vh 30vh;
+        border-radius: 50%;
+    }
+
+}
